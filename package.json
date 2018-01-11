@@ -1,0 +1,37 @@
+{
+  "name": "reactive-cache",
+  "version": "0.0.1",
+  "description": "reactive cache for SPA",
+  "main": "index.js",
+  "repository": "https://github.com/adwd/reactive-cache",
+  "author": "adwd",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "rxjs": "^5.5.6"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.0.1",
+    "jest": "^22.0.5",
+    "onchange": "^3.3.0",
+    "prettier": "^1.10.2",
+    "ts-jest": "^22.0.1",
+    "typescript": "^2.6.2"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
